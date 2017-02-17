@@ -1,6 +1,6 @@
 {
   "name": "pz-animate-scroll",
-  "description": "Animatescroll.js jquery plugin as an amgular 1.x directive",
+  "description": "Animatescroll.js jquery plugin as an Angular 1.x directive",
   "main": "dist/index.min.js",
   "version": "1.0.0",
   "repository": {
