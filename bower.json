@@ -2,7 +2,7 @@
   "name": "pz-animate-scroll",
   "description": "Animatescroll.js jquery plugin as an Angular 1.x directive",
   "main": "dist/index.min.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/pinchnzoom/pz-animate-scroll.git"
