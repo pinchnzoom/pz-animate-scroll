@@ -22,7 +22,7 @@ And nextly, in your Angular module, include `pz.animateScroll` as a dependency:
 angular.module('my-app', ['pz.animateScroll'])
 ```
 
-And afterthatly, add the 'page-container' HTML attribute id to the top-level element you want to be scrollable (if you have a fixed sidebar aside, and a section element, put it in the sectino element)
+And afterthatly, add the 'page-container' HTML attribute id to the top-level element you want to be scrollable (if you have a fixed sidebar aside, and a section element, put it in the section element)
 ``` html
 <any class="page-container"></any>
 ```
