@@ -6,7 +6,7 @@
   |  | | \| | |  | |  |  |  |___    ___] |___ |  \ |__| |___ |___
   */ // required animatescroll jquery
   // arg1 is id of el to scroll to , arg2 is delay in milliseconds
-  angular.module('pz.animateScroll',[]).directive('pzAnimateScroll', function($parse, $timeout) {
+  angular.module('pz.animateScroll',[]).directive('pzAnimateScroll', ['$parse', '$timeout', function($parse, $timeout) {
     return {
       restrict: 'A',
       link: function(scope, el, attrs) {
@@ -27,7 +27,6 @@
         });
       }
     };
-  });
-
+  }]);
 
 }());
